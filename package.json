@@ -1,0 +1,25 @@
+{
+  "name": "vmarcusvinicius-md-link",
+  "version": "1.0.0",
+  "description": "Biblioteca que verifica os links de um arquivos markdown.",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest ./test",
+    "cli": "node cli.js ./arquivos/texto1.md",
+    "valida": "node cli.js ./arquivos/texto1.md validar"
+  },
+  "keywords": [ "markdown", "URL", "md", "link" ],
+  "author": "vmarcusvinicius ",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^4.1.2",
+    "node-fetch": "^3.0.0"
+  },
+  "devDependencies": {
+    "jest": "^27.2.5"
+  },
+  "bugs": {
+    "url" : "https://github.com/vmarcusvinicius/md-link/issues",
+    "email" : "marcusviny78@gmail.com"
+  }
+}
